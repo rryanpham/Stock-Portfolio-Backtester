@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Stock Backtester</title>
+        
+        <link rel="stylesheet" href="../static/style.css/">
+    </head>
+    <body>
+      <header id="main-header">
+        <div class="container">
+          <h1>Backtest Portfolio Asset Allocation</h1>
+        </div>
+      </header>
+
+      <nav id="navbar">
+        <div class="container">
+          <ul>
+            <li><a href="home">Home</a></li>
+            <li><a href="about">About</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+
+
+      <h1>Backtest Portfolio Asset Allocation!</h1>
+        <form action="/submit" method="POST">
+            <div class="my-form">
+                <label>Initial Value</label>
+                <input type="number" name="initial value">
+    
+            </div>
+            
+            <div class="my-form">
+                <label>Start Year</label>
+                <input type="number" name="start year">
+            </div>
+
+            <div class="my-form">
+              <label>End Year</label>
+              <input type="number" name="end year">
+          </div>
+
+          <br>
+         
+          <br>
+
+          <table>
+              <thread>
+                  <tr>
+                      <th>Portfolio Assets      </th>
+                      <th>Portfolio 1</th>
+                      <th>Portfolio 2</th>
+                      <th>Portfolio 3</th>
+                  </tr>
+              </thread>
+
+              <tbody>
+                  <tr>
+                   
+                      <td>
+                          <label>Asset 1</label>
+                          <input type="text" name="stock ticker 1">
+                        </td>
+                      <td> 
+                          <input type="number" name="percent row 1 col 2" value="0">
+                    </td>
+                      <td> 
+                          <input type="number" name="percent row 1 col 3" value="0">
+                    </td>
+                    <td> 
+                          <input type="number" name="percent row 1 col 4" value="0">
+                    </td>
+                    <td>
+                        
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td>
+                        <label>Asset 2</label>
+                        <input type="text" name="stock ticker 2">
+                      </td>
+                      <td> 
+                        <input type="number" name="percent row 2 col 2" value="0">
+                  </td>
+                  <td> 
+                    <input type="number" name="percent row 2 col 3" value="0">
+              </td>
+              <td> 
+                <input type="number" name="percent row 2 col 4" value="0">
+          </td>
+                  </tr>
+
+                  <tr>
+                      <td>
+                        <label>Asset 3</label>
+                        <input type="text" name="stock ticker 3">
+                      </td>
+
+                      <td> 
+                        <input type="number" name="percent row 3 col 2" value="0">
+                  </td>
+
+                  <td> 
+                    <input type="number" name="percent row 3 col 3" value="0">
+              </td>
+
+              <td> 
+                <input type="number" name="percent row 3 col 4" value="0">
+          </td>
+                    
+                  </tr>
+
+
+                  <tr>
+                    <td>
+                        <label>Asset 4</label>
+                        <input type="text" name="stock ticker 4">
+                      </td>
+                      <td> 
+                        <input type="text" name="percent row 4 col 2" value="0">
+                  </td>
+                  <td> 
+                    <input type="text" name="percent row 4 col 3" value="0">
+              </td>
+              <td> 
+                <input type="text" name="percent row 4 col 4" value="0">
+          </td>
+                  </tr>
+                  
+              </tbody>
+          </table>
+
+        <br>
+
+          
+            <input type="submit" name="submit" value="Submit">
+
+            
+        
+        </form>
+    </body>
+   
+</html>
